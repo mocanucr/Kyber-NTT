@@ -42,3 +42,9 @@ Proiectul a fost verificat în Xilinx Vivado (folosind simulatorul integrat).
 În imaginea de mai jos se poate observa simularea completă. Semnalul `done` devine activ la finalul procesării, iar memoria conține valorile actualizate.
 
 ![Waveform Simulare](simulation_waveform.png)
+
+### Validare Numerică (Consola Tcl)
+
+Pe lângă grafice, testbench-ul afișează valorile exacte calculate de FPGA. În imaginea de mai jos se observă că memoria a fost actualizată cu succes (valorile 1658 și 1871), confirmând corectitudinea algoritmului.
+
+![Rezultate Terminal](terminal_output.png)
